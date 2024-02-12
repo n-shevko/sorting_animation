@@ -149,7 +149,7 @@ class Sorting(MovingCameraScene):
         self.camera.background_color = WHITE
 
     def construct(self):
-        steps = read_steps()[-2:]
+        steps = read_steps()
         #steps = test_data(10)[:5]
         config = load_config()
         # plane = NumberPlane()
